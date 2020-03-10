@@ -1,0 +1,24 @@
+{
+  "name": "ccalayan/elasticsearch-for-monolog",
+  "description": "A Monolog handler and formatter that makes use of the elasticsearch/elasticsearch package",
+  "type": "library",
+  "keywords": ["log", "logging", "logger", "monolog", "psr3", "psr-3", "elastic", "elasticsearch"],
+  "require": {
+    "elasticsearch/elasticsearch": "^7.6"
+  },
+  "require-dev": {
+    "monolog/monolog": "^1.24"
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Çağlar Çağlayan",
+      "email": "c.caglayan.cc@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "ElasticSearch4Monolog\\": "src"
+    }
+  }
+}
