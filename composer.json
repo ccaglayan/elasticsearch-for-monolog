@@ -1,5 +1,5 @@
 {
-  "name": "ccalayan/elasticsearch-for-monolog",
+  "name": "ccaglayan/elasticsearch-for-monolog",
   "description": "A Monolog handler and formatter that makes use of the elasticsearch/elasticsearch package",
   "type": "library",
   "keywords": ["log", "logging", "logger", "monolog", "psr4", "psr-4", "elastic", "elasticsearch"],
